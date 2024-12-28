@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+header{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #b5dfff;
+    padding: 0 50px;
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.head-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.head-bt{
+    display: flex;
+}
+.head-btn1{
+    padding: 5px 10px;
+    background-color: #53b4ff;
+    border: none;
+    border-radius: 5px;
+}
+.main{
+    margin: 0 120px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.fa-arrow-up{
+    right: 40px;
+    bottom: 30px;
+    position: fixed;
+    background-color: #b5dfff;
+    padding: 15px 17px;
+    border-radius: 50%;
+}
+.popular-course{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.h1{
+    margin: 10px;
+    padding: 0;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #c1e4ff;
+    padding: 15px 0px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin : 0 10px 0 10px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.078);
+}
+.ul li{
+    background-color: #74C0FC;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.078);
+}
+.ul li:hover{
+    background-color: #c1e4ff;
+    cursor: pointer;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.card{
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(217, 253, 241);
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.078);
+}
+.img-card{
+    position: relative;
+}
+.fa-bookmark{
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+.card-content{
+    padding: 5px 15px;
+}
+.card .img{
+    width: 100%;
+    height: auto;
+}
+.card-sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-Course{
+    background-color: #b5dfff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.078);
+}
+.card-content .clamp{
+    line-clamp: 2;
+}
+.star-sec{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.stars{
+    margin-right: 5px;
+}
+.footer-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-card .subfooter{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.card-sec1, .h3, .p, .star-sec, .footer-card ,hr {
+    margin-bottom: -5px;
+}
+footer{
+    text-align: center;
+    background-color: #b5dfff;
+    padding: 20px 0;
+}
